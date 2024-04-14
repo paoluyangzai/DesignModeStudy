@@ -4,6 +4,7 @@ public abstract class Computer {
     protected String mBoard;
     protected String mDisplay;
     protected String mOS;
+    public String aaa;
 
     public void setmBoard(String mBoard) {
         this.mBoard = mBoard;
