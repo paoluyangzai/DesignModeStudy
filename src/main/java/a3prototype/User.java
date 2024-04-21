@@ -20,9 +20,13 @@ public class User implements Cloneable{
      * @throws CloneNotSupportedException
      */
     @Override
-    protected Object clone() throws CloneNotSupportedException {
+    protected Object clone(){
         User user = null;
-        user = (User) super.clone();
+        try {
+            user = (User) super.clone();
+        } catch (CloneNotSupportedException e) {
+            throw new RuntimeException(e);
+        }
         return user;
     }
 }

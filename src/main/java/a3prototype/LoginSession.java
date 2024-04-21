@@ -16,6 +16,7 @@ public class LoginSession {
     }
 
     public User getLoginedUser() {
-        return loginedUser;
+        return (User) loginedUser.clone();
+//        return loginedUser;
     }
 }
