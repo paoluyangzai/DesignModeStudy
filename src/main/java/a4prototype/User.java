@@ -1,4 +1,4 @@
-package a3prototype;
+package a4prototype;
 
 public class User implements Cloneable{
     public int age;

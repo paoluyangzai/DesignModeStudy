@@ -1,4 +1,4 @@
-package a3prototype;
+package a4prototype;
 
 public interface Login {
     void login();
